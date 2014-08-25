@@ -6,14 +6,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>jQueryPrezentator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/prezentator.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -22,11 +25,91 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="wc">
+            <h2 class="demo-title">jQuery Prezentator sample</h2>
+            <p>Пример плагина показа презентаций</p>
+
+            <ul id="presentationlist">
+                <li><img src="img/images/1.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/2.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/3.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/4.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/5.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/6.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/7.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/8.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/9.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/10.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+            </ul>
+
+
+<!--
+            <div class="prezentator-viewport" style="width: 700px; height: 450px;">
+                <div class="prezentator-arrow prezentator-arrow-right"></div>
+                <div class="prezentator-arrow prezentator-arrow-left"></div>
+                <div class="prezentator-container">
+                    <div class="prezentator-container-front"><img src="img/images/1.jpg" alt=""></div>
+                    <div class="prezentator-container-back"><img src="img/images/2.jpg" alt=""></div>
+                </div>
+                <div class="prezentator-slides">
+                    <div class="prezentator-slides-arrow prezentator-slides-arrow-left"></div>
+                    <div class="prezentator-slides-arrow prezentator-slides-arrow-right"></div>
+                    <div class="prezentator-slides-wrapper">
+                        <div class="prezentator-slide active">
+                            <div class="prezentator-slide-img"><img src="img/images/1.jpg" alt="Пример использования плагина показа презентаций" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/2.jpg" alt="You are using an <strong>outdated</strong> browser" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/3.jpg" alt="Пример использования плагина показа презентаций" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/4.jpg" alt="You are using an <strong>outdated</strong> browser" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/5.jpg" alt="Пример использования плагина показа презентаций" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/6.jpg" alt="You are using an <strong>outdated</strong> browser" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/7.jpg" alt="Пример использования плагина показа презентаций" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/8.jpg" alt="You are using an <strong>outdated</strong> browser" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/9.jpg" alt="Пример использования плагина показа презентаций" class="prezentator-slide-img-img"></div>
+                        </div>
+                        <div class="prezentator-slide">
+                            <div class="prezentator-slide-img"><img src="img/images/10.jpg" alt="You are using an <strong>outdated</strong> browser" class="prezentator-slide-img-img"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+-->
+            <p>Вторая презентация на той же странице</p>
+            <ul id="presentationlist2" style="display: none;">
+                <li><img src="img/images/11.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/12.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/13.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/14.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/15.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/16.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/17.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/18.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+                <li><img src="img/images/19.jpg" alt="Пример использования плагина показа презентаций"></li>
+                <li><img src="img/images/20.jpg" alt="You are using an <strong>outdated</strong> browser"></li>
+            </ul>
+        </div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="js/jquery.prezentator.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

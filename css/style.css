@@ -1,0 +1,81 @@
+
+/* line 73 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+
+/* line 2 : C:\Users\Петр\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 41 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+/* DEFAULT */
+
+/* line 42 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.wc {
+  width: 950px;
+  margin: 0 auto;
+}
+
+/* line 45 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.dib,
+.dib_b,
+.dib_m {
+  display: inline-block;
+  vertical-align: top;
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 50 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.dib_b {
+  vertical-align: bottom;
+}
+
+/* line 53 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.dib_m {
+  vertical-align: middle;
+}
+
+/* line 56 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.scw {
+  font-size: 0;
+  white-space: nowrap;
+}
+
+/* line 60 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.clr:before,
+.clr:after {
+  content: " ";
+  display: table;
+}
+
+/* line 63 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.clr:after {
+  clear: both;
+}
+
+/* line 65 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.clr {
+  *zoom: 1;
+}
+
+/* line 67 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+
+/* line 5 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+
+/* line 6 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+
+/* line 7 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+
+/* line 8 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.bs -webkit-box-sizing args -moz-box-sizing args -ms-box-sizing args -o-box-sizing args {
+  box-sizing: border-box;
+}
+
+/* line 70 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 75 : C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\projects\yap.ok\eww\jquery-presentator\css\style.styl */
+.demo-title {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 24pt;
+}

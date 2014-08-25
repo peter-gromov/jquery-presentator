@@ -1,0 +1,77 @@
+fontL = 'Cuprum', sans-serif
+fontSI = 'segoe_ui_light', 'Verdana', 'Arial', 'sans-serif'
+vendor(prop, args)
+    -webkit-{prop} args
+       -moz-{prop} args
+        -ms-{prop} args
+         -o-{prop} args
+            {prop} args
+animation()
+    vendor('animation', arguments)
+border-radius()
+    vendor('border-radius', arguments)
+box-shadow()
+    vendor('box-shadow', arguments)
+box-sizing()
+    vendor('box-sizing', arguments)
+transition()
+    vendor('transition', arguments)
+transform()
+    vendor('transform', arguments)
+transform-origin()
+    vendor('transform-origin', arguments)
+user-select()
+    vendor('user-select', arguments)
+background-size(v)
+    vendor('background-size', arguments)
+background-linear-gradient(startPoint, startColor, startInterval, endColor, endInterval, deprecatedWebkitStartPoint = false, deprecatedWebkitEndPoint = false)
+    background-color startColor
+    if deprecatedWebkitStartPoint && deprecatedWebkitEndPoint
+        background-image -webkit-gradient(linear, deprecatedWebkitStartPoint, deprecatedWebkitEndPoint, color-stop(startInterval, startColor), color-stop(endInterval, endColor))
+    background-image -webkit-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+    background-image -moz-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+    background-image -ms-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+    background-image -o-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+    background-image linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+opacity(v)
+    filter unquote('alpha(opacity=' + v*100 + ')')
+    -moz-opacity v
+    opacity v
+/* DEFAULT */
+.wc
+    width 950px
+    margin 0 auto
+.dib
+    display inline-block
+    vertical-align top
+    *display inline
+    zoom 1
+.dib_b
+    @extends .dib
+    vertical-align bottom
+.dib_m
+    @extends .dib
+    vertical-align middle
+.scw
+    font-size 0
+    white-space nowrap
+
+.clr:before,
+.clr:after
+    content " "
+    display table
+.clr:after
+    clear both
+.clr
+    *zoom 1
+.bs 
+    box-sizing(border-box)
+
+body
+    margin 0
+    padding 0
+
+
+.demo-title
+    font-family fontL
+    font-size 24pt
